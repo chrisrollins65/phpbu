@@ -107,7 +107,7 @@ class Tar extends SimulatorExecutable implements Simulator
     /**
      * Instead of archiving symbolic links, archive the files they link to
      *
-     * @var
+     * @var bool
      */
     private $dereference;
 
