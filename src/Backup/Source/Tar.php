@@ -128,7 +128,7 @@ class Tar extends SimulatorExecutable implements Simulator
         $this->forceLocal       = Util\Str::toBoolean(Util\Arr::getValue($conf, 'forceLocal', ''), false);
         $this->ignoreFailedRead = Util\Str::toBoolean(Util\Arr::getValue($conf, 'ignoreFailedRead', ''), false);
         $this->removeSourceDir  = Util\Str::toBoolean(Util\Arr::getValue($conf, 'removeSourceDir', ''), false);
-        $this->dereference       = Util\Str::toBoolean(Util\Arr::getValue($conf, 'dereference', ''), false);
+        $this->dereference      = Util\Str::toBoolean(Util\Arr::getValue($conf, 'dereference', ''), false);
     }
 
     /**
